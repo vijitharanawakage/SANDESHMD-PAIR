@@ -1,4 +1,4 @@
-document.getElementById('generate-code').addEventListener('click', () => {
+document.getElementById('generate-code').addEventListener('click', (sandesh123) => {
     fetch('/generate-code')
         .then(response => response.json())
         .then(data => {
